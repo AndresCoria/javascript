@@ -86,12 +86,12 @@ function bebidas() {
 function postres() {
   alert("Elije tu Postre");
 
-  const precioPostres = [20, 75, 100];
+  const precioPostres = [20, 75, 100, 0];
   const eleccion = parseInt(
-    prompt("Ingresa tu eleccion" + " 1- Gelatina 2- Flan 3- Helado")
+    prompt("Ingresa tu eleccion" + " 1- Gelatina 2- Flan 3- Helado 4- Sin postre")
   );
 
-  if (eleccion < 1 || eleccion > 3) {
+  if (eleccion < 1 || eleccion > 4) {
     alert("Opcion no valida");
     postres();
 
