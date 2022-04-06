@@ -37,7 +37,7 @@ function comidas() {
     )
   );
 
-  if (eleccion < 1 && eleccion > 3) {
+  if (eleccion < 1 || eleccion > 3) {
     alert("Opcion no valida");
     comidas();
 
@@ -64,7 +64,7 @@ function bebidas() {
     prompt("Ingresa tu eleccion" + " 1- Agua 2- Gaseosa 3- Cerveza")
   );
 
-  if (eleccion < 1 && eleccion > 3) {
+  if (eleccion < 1 || eleccion > 3) {
     alert("Opcion no valida");
     bebidas();
 
@@ -91,7 +91,7 @@ function postres() {
     prompt("Ingresa tu eleccion" + " 1- Gelatina 2- Flan 3- Helado")
   );
 
-  if (eleccion < 1 && eleccion > 3) {
+  if (eleccion < 1 || eleccion > 3) {
     alert("Opcion no valida");
     postres();
 
